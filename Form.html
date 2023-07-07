@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="post">
+        <fieldset>
+            <legend>User Details!!!</legend>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="username">
+            <br>
+            <label for="address">Enter your address:</label>
+            <input type="text" id="address" name="user address">
+            <br>
+            <label for="dob">enter your DOB:</label>
+            <input type="date" name="user dob" id="dob">
+            <br>
+            <label for="password">Enter your Password:</label>
+            <input type="password" id="password" name="user password">
+            <br>
+            <label for="email">Enter your Email</label>
+            <input type="email" name="User Email" id="email" placeholder="a@gmail.com">
+        <!-- select single option  due to same name attribute that is gender -->
+            Select Your gender: <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <br>
+        <!-- selecting multiple options at a time due to different name attribute -->
+            Select Your favourite Movies: <br>
+            <label for="avengers">Avenger</label>
+            <input type="checkbox" name="avenger" id="avengers">
+            <br>
+            <label for="ironmans">Ironman</label>
+            <input type="checkbox" name="ironman" id="ironmans">
+            <br>
+            <label for="Don">Don</label>
+            <input type="checkbox" name="dons" id="Don">
+            <br>
+            <input type="number" min="0" max="10">
+            <input type="submit" value="Submit form">
+        </fieldset>
+
+
+
+    </form>
+</body>
+</html>
